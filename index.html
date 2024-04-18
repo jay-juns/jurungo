@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>마라톤 달력</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="wrapper">
+                <h3>마라톤 달력</h3>
+                <div class="calendar"></div>
+            </div>
+        </main>
+        <div id="datePopup" class="date-popup" style="display:none;">
+            <div class="popup-wrapper">
+                <div id="popupContent" class="popup-content"></div>
+                <button class="close-popup" onclick="closePopup()">닫기</button>
+            </div>
+        </div>    
+        <script type="text/javascript" src="./js/calendarControl.js"></script>
+        <script type="text/javascript" src="./js/popup.js"></script>
+    </body>
+</html>
